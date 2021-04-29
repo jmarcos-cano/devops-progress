@@ -346,7 +346,7 @@
 <div class="mermaid">gantt
     dateFormat  YYYY-MM-DD
     excludes    Friday, Saturday, Sunday
-    axisformat %B-%d
+    axisformat %B-%d Week: %U
     todayMarker off
     title Devops Transformation Plan
 
@@ -361,19 +361,19 @@
     Create migration tooling : 1w
 
     section Migration
-    Research &amp; implement git to tfs tool            :m1, 2021-06-10, 10d
-    Create main/big git repository with history     :after m1  , 4d
-    Start moving away single repositories [iterate] :4w
+    Research &amp; implement git to tfs tool            :   m1, 2021-06-10, 10d
+    Create main/big git repository with history     :   m2, after m1  , 4d
+    Start moving away single repositories [iterate] :   after m1 m2, 4w
 
 
     section Training
-    Devops Training       :  2021-05-26  , 12d
-    Git Training      : 1w
-    Docker Training : 10d
-    Jenkins Training [Optional]: 4d
-    Helm Training [Optional]: 2d
-    Train everyone in the process:  2w
-    Kubernetes Training, train 3 groups: 2021-05-17, 4w
+    Devops Training       :                             2021-05-26  , 12d
+    Git Training      :                                 1w
+    Docker Training :                                   10d
+    Jenkins Training [Optional]:                        4d
+    Helm Training [Optional]:                           2d
+    Train everyone in the process:                      2w
+    Kubernetes Training, train 3 groups:                2021-05-17, 4w
 
 
     section Others
