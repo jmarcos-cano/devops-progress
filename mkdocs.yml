@@ -1,4 +1,4 @@
-site_name: Devops Report
+site_name: Devops Progress
 
 nav:
     - Progress: 'index.md'
@@ -10,15 +10,15 @@ site_author: Marcos Cano
 site_description: kubernetes (aka k8s) tips, training, guides.
 
 
-repo_name: Devops Report
-repo_url: https://github-hcs.dxc.com/jcano20/my-progress.git
+repo_name: Devops Progress
+repo_url: https://github-hcs.dxc.com/jcano20/devops-progress.git
 
 edit_uri: ""
 
 theme:
   name: material
   palette:
-    primary: "grey"
+    primary: "light blue"
     accent: 'lime'
   logo: 'assets/images/report.png'
   font:
