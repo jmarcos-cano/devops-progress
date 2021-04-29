@@ -10,7 +10,7 @@ Here you can find my progress anytime you would like to see where are we at our 
 
 ```mermaid
 gantt
-    dateFormat  YY-MM-DD
+    dateFormat  YYYY-MM-DD
     excludes    Friday, Saturday, Sunday
     axisformat %B-%d
     todayMarker off
@@ -18,32 +18,41 @@ gantt
 
 
     section Pilot Project
-    Provision CI/CD Infrastucture, setup Jenkins in k8s :active,  21-03-01, 2w
+    Provision CI/CD Infrastucture, setup Jenkins in k8s : done, 2021-03-01, 2w
     Create Pilot's Jenkinsfile & multi-stage Dockerfile :  4d
-    Provision CI/CD Infrastucture, setup ArgoCD & Octopus Deploy in k8s (GitOps) : active,1w
+    Provision CI/CD Infrastucture, setup ArgoCD & Octopus Deploy in k8s (GitOps) : active, 4w
     Create/Review Helm chart (git repo) & Helm repository: active, 1w
-    Test Helm chart via Gitops: 3d
-    Create Jenkins CD pipeline for GitOps :3d
+    Test Helm chart via Push: done, 3d
+    Create Octopus CD pipeline for Push : 3d
     Create migration tooling : 1w
 
     section Migration
-    Research & implement git to tfs tool            :m1, 21-04-10, 10d
+    Research & implement git to tfs tool            :m1, 2021-06-10, 10d
     Create main/big git repository with history     :after m1  , 4d
     Start moving away single repositories [iterate] :4w
 
 
     section Training
-    Devops Training       :  21-04-26  , 12d
+    Devops Training       :  2021-05-26  , 12d
     Git Training      : 1w
-    Kubernetes Training: 2w
     Docker Training : 10d
     Jenkins Training [Optional]: 4d
     Helm Training [Optional]: 2d
     Train everyone in the process:  2w
+    Kubernetes Training, train 3 groups: 2021-05-17, 4w
+
 
     section Others
-    KIE server integration : active, 21-04-5, 20d
+    KIE server integration Docker build : done, 2021-04-05, 10d
+    KIE Helm deploy demo  : done,  5d
+    Helm chart hub creation and refactor : active, 2021-04-26, 10d
+
 ```
 
 
 ### Extra comments
+
+!!! note
+    done => grey
+    active => ligth purple
+    any item => purple
