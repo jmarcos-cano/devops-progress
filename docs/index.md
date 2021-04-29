@@ -13,18 +13,18 @@ gantt
     dateFormat  YYYY-MM-DD
     excludes    Friday, Saturday, Sunday
     axisformat %B-%d Week: %U
-    todayMarker off
+    todayMarker on
     title Devops Transformation Plan
 
 
     section Pilot Project
-    Provision CI/CD Infrastucture, setup Jenkins in k8s : done, 2021-03-01, 2w
-    Create Pilot's Jenkinsfile & multi-stage Dockerfile :  4d
-    Provision CI/CD Infrastucture, setup ArgoCD & Octopus Deploy in k8s (GitOps) : active, 4w
-    Create/Review Helm chart (git repo) & Helm repository: active, 1w
-    Test Helm chart via Push: done, 3d
-    Create Octopus CD pipeline for Push : 3d
-    Create migration tooling : 1w
+    Provision CI/CD Infrastucture, setup Jenkins in k8s :                               done, 2021-03-01, 2w
+    Create Pilot's Jenkinsfile & multi-stage Dockerfile :                               4d
+    Provision CI/CD Infrastucture, setup ArgoCD & Octopus Deploy in k8s (GitOps) :      active, 4w
+    Create/Review Helm chart (git repo) & Helm repository:                              active, 1w
+    Test Helm chart via Push:                                                           done, 3d
+    Create Octopus CD pipeline for Push :                                               done, 3d
+    Create migration tooling :                                                          1w
 
     section Migration
     Research & implement git to tfs tool            :   m1, 2021-06-10, 10d
@@ -33,13 +33,13 @@ gantt
 
 
     section Training
-    Devops Training       :                             2021-05-26  , 12d
+    Devops Training       :                             2021-06-26  , 12d
     Git Training      :                                 1w
     Docker Training :                                   10d
     Jenkins Training [Optional]:                        4d
     Helm Training [Optional]:                           2d
     Train everyone in the process:                      2w
-    Kubernetes Training, train 3 groups:                2021-05-17, 4w
+    Kubernetes Training, train 3 groups:                active, 2021-05-17, 4w
 
 
     section Others
