@@ -53,6 +53,6 @@ gantt
 ### Extra comments
 
 !!! note
-    done => grey
-    active => ligth purple
-    any item => purple
+    - done => grey ⬜
+    - active => ligth purple
+    - any item => purple 🟪
