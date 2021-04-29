@@ -6,7 +6,9 @@ Here you can find my progress anytime you would like to see where are we at our 
 !!! info
     I'll try my best to keep it up to date
 
+
 ## Gantt progress
+
 
 ```mermaid
 gantt
@@ -40,6 +42,11 @@ gantt
     Helm Training [Optional]:                           2d
     Train everyone in the process:                      2w
     Kubernetes Training, train 3 groups:                active, 2021-05-17, 4w
+
+    section Culture
+    Research team's health tool:                             done, 2021-04-12  , 4d
+    Human Devops Presentation and Suggestion:                done, 1w
+    Create first "test" survey:                                 active, today, 3d
 
 
     section Others
