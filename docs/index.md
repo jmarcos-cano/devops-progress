@@ -50,7 +50,6 @@ gantt
 ```
 
 
-### Extra comments
 
 !!! note
     - done => grey ⬜
