@@ -3,7 +3,7 @@
 Here you can find my progress anytime you would like to see where are we at our **"Devops Transformation Plan"**; 
 
 
-!!! 
+!!! info
     I'll try my best to keep it up to date
 
 ## Gantt progress

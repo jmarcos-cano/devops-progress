@@ -2,7 +2,7 @@ site_name: Devops Report
 
 nav:
     - Progress: 'index.md'
-    - kanban: 'kanban.md'
+    - Kanban: 'kanban.md'
 
 
 
