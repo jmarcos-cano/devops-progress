@@ -12,7 +12,6 @@ Here is a short board that describes what has been done starting Apr 17th.
 |XLT ppts                           |      |            |         |
 |Setup team's pulse                 |      |            |         |
 |Prepare k8s training guide         |      |            |         |
-|Create HUMAN SKILL PPT             |      |  High 🔥    |Completed ✅|
+|Create HUMAN Devops PPT             |      |  High 🔥    |Completed ✅|
 |Create morale measurement tool     |      |  High 🔥    |Completed ✅|
-|Fix zones in terraform module      |      |             |Completed ✅|
 |Investigate versioning for KIE     |      |  Low        |Completed ✅|
