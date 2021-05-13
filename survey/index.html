@@ -13,19 +13,19 @@
         <meta name="author" content="Marcos Cano">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
     
     
       
-        <title>Devops Progress</title>
+        <title>extra - Devops Progress</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.e35208c4.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.e35208c4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ef6f36e2.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ef6f36e2.min.css">
         
           
           
@@ -61,7 +61,7 @@
     <body dir="ltr" data-md-color-scheme="" data-md-color-primary="light-blue" data-md-color-accent="lime">
   
     
-    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#description" class="md-skip">
+        <a href="#extra" class="md-skip">
           Skip to content
         </a>
       
@@ -80,9 +80,9 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Devops Progress" class="md-header__button md-logo" aria-label="Devops Progress" data-md-component="logo">
+    <a href=".." title="Devops Progress" class="md-header__button md-logo" aria-label="Devops Progress" data-md-component="logo">
       
-  <img src="assets/images/report.png" alt="logo">
+  <img src="../assets/images/report.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Progress
+              extra
             
           </span>
         </div>
@@ -172,9 +172,9 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Devops Progress" class="md-nav__button md-logo" aria-label="Devops Progress" data-md-component="logo">
+    <a href=".." title="Devops Progress" class="md-nav__button md-logo" aria-label="Devops Progress" data-md-component="logo">
       
-  <img src="assets/images/report.png" alt="logo">
+  <img src="../assets/images/report.png" alt="logo">
 
     </a>
     Devops Progress
@@ -201,51 +201,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Progress
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         Progress
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#gantt-progress" class="md-nav__link">
-    Gantt progress
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -258,7 +218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="kanban/" class="md-nav__link">
+      <a href="../kanban/" class="md-nav__link">
         Kanban
       </a>
     </li>
@@ -284,21 +244,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#gantt-progress" class="md-nav__link">
-    Gantt progress
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -310,67 +255,12 @@
               
                 
                 
-                <h1 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h1>
-<p>Here you can find my progress anytime you would like to see where are we at our <strong>"Devops Transformation Plan"</strong>; </p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p>I'll try my best to keep it up to date</p>
-</div>
-<h2 id="gantt-progress">Gantt progress<a class="headerlink" href="#gantt-progress" title="Permanent link">&para;</a></h2>
-<div class="mermaid">gantt
-    dateFormat  YYYY-MM-DD
-    excludes    Saturday, Sunday
-    axisformat %B-%d Week: %U
-    todayMarker on
-    title Devops Transformation Plan
-
-
-    section Pilot Project
-    Provision CI/CD Infrastucture, setup Jenkins in k8s :                               done, 2021-03-01, 2w
-    Create Pilot's Jenkinsfile &amp; multi-stage Dockerfile :                               4d
-    Provision CI/CD Infrastucture, setup ArgoCD &amp; Octopus Deploy in k8s (GitOps) :      active, 8w
-    Create/Review Helm chart (git repo) &amp; Helm repository:                              active, 1w
-    Test Helm chart via Push:                                                           done, 3d
-    Create Octopus CD pipeline for Push :                                               done, 3d
-    Create migration tooling :                                                          1w
-
-    section Migration
-    Research &amp; implement git to tfs tool            :   m1, 2021-06-10, 10d
-    Create main/big git repository with history     :   m2, after m1  , 4d
-    Start moving away single repositories [iterate] :   after m1 m2, 4w
-
-
-    section Training
-    Devops Training       :                             2021-06-26  , 12d
-    Docker Training :                                   10d
-    Jenkins Training [Optional]:                        4d
-    Helm Training [Optional]:                           2d
-    Train everyone in the process:                      2w
-    Prepare Git Training      :                         2021-06-07, 2w
-    Git Training      :                                 2021-06-21, 1w
-    Prepare Kubernetes Training/Material/hands-on:      active, 2021-05-03, 2021-06-18
-    Kubernetes Training, train 3 groups:                active, 2021-05-17, 2021-06-18
-
-    section Culture
-    Research team's health tool:                             done, 2021-04-12  , 4d
-    Human Devops Presentation and Suggestion:                done, 1w
-    Create first "test" survey:                                 active, today, 3d
-
-
-    section Others
-    KIE server integration Docker build : done, 2021-04-05, 10d
-    KIE Helm deploy demo  : done,  5d
-    Helm chart hub creation and refactor : done, 2021-04-26, 10d
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<ul>
-<li>done =&gt; grey ⬜</li>
-<li>active =&gt; ligth purple</li>
-<li>any item =&gt; purple 🟪</li>
-</ul>
-</div>
-<hr />
+                <h1 id="extra">extra<a class="headerlink" href="#extra" title="Permanent link">&para;</a></h1>
+<p>My direct manager has a good level of transparency with the team.</p>
+<p>My work is fulfilling.</p>
+<p>I am happy with how frequently I am recognized.</p>
+<p>My organization promotes healthy eating habits.</p>
+<p>Do you believe that your organization is able to reach its objectives?</p>
                 
               
               
@@ -386,25 +276,6 @@
       
         
 <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-      
-        <a href="kanban/" class="md-footer__link md-footer__link--next" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Kanban
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -425,10 +296,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.4ea5477f.min.js"></script>
+      <script src="../assets/javascripts/bundle.4ea5477f.min.js"></script>
       
         <script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
       
