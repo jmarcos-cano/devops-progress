@@ -21,9 +21,9 @@ gantt
 
     section Pilot Project
     Provision CI/CD Infrastucture, setup Jenkins in k8s :                               done, 2021-03-01, 2w
-    Create Pilot's Jenkinsfile & multi-stage Dockerfile :                               4d
+    Create Pilot's Jenkinsfile & multi-stage Dockerfile :                               5d
     Provision CI/CD Infrastucture, setup ArgoCD & Octopus Deploy in k8s (GitOps) :      active, 10w
-    Create/Review Helm chart (git repo) & Helm repository:                              active, 1w
+    Create/Review Helm chart (git repo) & Helm repository:                              2w
     Test Helm chart via Push:                                                           done, 3d
     Create Octopus CD pipeline for Push :                                               done, 3d
     Create migration tooling :                                                          1w
@@ -31,6 +31,8 @@ gantt
     section Migration
     Research & implement git to tfs tool            :   active,m1, 2021-06-21, 10d
     Create a testing repo from CSP_IPOPR4 branch :      active, m2, after m1  , 2w
+    Create a testing repo from --all branches :      active, mx,  after m2  , 2w
+    Start testing the mechanism/workflow/steps for the migration:      active,  after mx  , 2w
     Break out the testing repo into multiple mini-repositories: m3, after m2  , 4d
     Create main/big git repo with history     :   m4, after m3  , 1w
     Start moving away single repositories [iterate] :   after m1 m2 m3 m4, 4w
@@ -57,7 +59,7 @@ gantt
     KIE server integration Docker build : done, 2021-04-05, 10d
     KIE Helm deploy demo  : done,  5d
     Helm chart hub creation and refactor : done, 2021-04-26, 10d
-    Sonarqube integration and setup: active, 2021-06-10, 3w
+    Sonarqube integration and setup: done, 2021-06-10, 3w
 
 ```
 
