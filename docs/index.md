@@ -28,11 +28,18 @@ gantt
     Create Octopus CD pipeline for Push :                                               done, 3d
     Create migration tooling :                                                          1w
 
+    section PreMigration
+    Research & implement git-tfs tool            :   done,pm1, 2021-06-21, 10d
+    Create a testing repo from CSP_IPOPR4 branch :      done, pm2, after pm1  , 2w
+    Create a testing repo from --all branches :      active, pm3,  after pm2  , 2w
+
+    Start testing the mechanism/workflow/steps for the migration:      done, pm4, after pm3  , 2w
+    Create automation for the migration:    active, after pm4, 5d
+    Migrate UI:     active, 1d
+    Migrate Backend components (personalization, osm-cache, emr-ml-[db-service|ril|reset-server], job-scheduler, spellchecker, op-batch, msgraph-service ):     active,5d
+
+
     section Migration
-    Research & implement git to tfs tool            :   active,m1, 2021-06-21, 10d
-    Create a testing repo from CSP_IPOPR4 branch :      active, m2, after m1  , 2w
-    Create a testing repo from --all branches :      active, mx,  after m2  , 2w
-    Start testing the mechanism/workflow/steps for the migration:      active,  after mx  , 2w
     Break out the testing repo into multiple mini-repositories: m3, after m2  , 4d
     Create main/big git repo with history     :   m4, after m3  , 1w
     Start moving away single repositories [iterate] :   after m1 m2 m3 m4, 4w
