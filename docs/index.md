@@ -54,7 +54,7 @@ gantt
     Prepare Git Training      :                         2021-06-27, 2w
     Git Training      :                                 2021-07-21, 1w
     Prepare Kubernetes Training/Material/hands-on:      done, 2021-05-03, 2021-06-28
-    Kubernetes Training, train 3 groups:                active, 2021-05-17, 2021-07-07
+    Kubernetes Training, train 3 groups:                done, 2021-05-17, 2021-07-07
 
     section Culture
     Research team's health tool:                             done, 2021-04-12  , 4d
@@ -67,6 +67,8 @@ gantt
     KIE Helm deploy demo  : done,  5d
     Helm chart hub creation and refactor : done, 2021-04-26, 10d
     Sonarqube integration and setup: done, 2021-06-10, 3w
+    PAP Helm Chart  : active,  5d
+
 
 ```
 
