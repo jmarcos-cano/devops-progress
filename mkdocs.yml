@@ -1,8 +1,8 @@
 site_name: Devops Progress
 
 nav:
-    - Progress: 'index.md'
-    - Kanban: 'kanban.md'
+    - Notes: 'index.md'
+    - Progress: 'kanban.md'
 
 
 

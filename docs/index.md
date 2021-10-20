@@ -35,7 +35,7 @@ gantt
 
     Start testing the mechanism/workflow/steps for the migration:      done, pm4, after pm3  , 2w
     Create automation for the migration:    active, after pm4, 5d
-    Migrate UI:     active, 1d
+    Migrate UI:     active, 1week
     Migrate Backend components (personalization, osm-cache, emr-ml-[db-service|ril|reset-server], job-scheduler, spellchecker, op-batch, msgraph-service ):     active,5d
 
 
