@@ -24,7 +24,7 @@ theme:
     accent: 'pink'
   logo: 'assets/images/report.png'
   font:
-    text: 'ubuntu'
+    text: 'Fira Code'
     code: 'Inconsolata'
   language: 'en'
   include_sidebar: True
