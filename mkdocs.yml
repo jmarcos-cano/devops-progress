@@ -2,7 +2,7 @@ site_name: Devops Progress
 
 nav:
   - Home: 'index.md'
-  - Engage 4 Me: 'e4me.md'
+  - E4Me: 'e4me.md'
   - PAP: 'pap.md'
   - Glossary: 'glossary.md'
 
@@ -76,7 +76,7 @@ markdown_extensions:
 
 
 extra_css:
-    - https://unpkg.com/mermaid@8.13.3/dist/mermaid.css
+    - https://unpkg.com/mermaid/dist/mermaid.css
 
 
 
