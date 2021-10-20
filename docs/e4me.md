@@ -60,7 +60,7 @@ gantt
 
 
     section Others
-    TBD :  2021-11-05, 10d
+    TBD :  2021-11-05, 10w
 
 
 ```
