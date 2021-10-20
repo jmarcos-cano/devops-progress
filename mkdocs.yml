@@ -3,8 +3,9 @@ site_name: Devops Progress
 nav:
   - Home: 'index.md'
   - E4Me: 'e4me.md'
-  - PAP: 'pap.md'
   - Glossary: 'glossary.md'
+  - Old:
+    - PAP: 'pap.md'
 
 
 
@@ -15,7 +16,7 @@ site_description: kubernetes (aka k8s) tips, training, guides.
 repo_name: Devops Progress
 repo_url: https://github-hcs.dxc.com/jcano20/devops-progress.git
 
-edit_uri: "/"
+edit_uri: ""
 
 theme:
   name: material
