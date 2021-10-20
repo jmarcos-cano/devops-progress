@@ -1,8 +1,10 @@
 site_name: Devops Progress
 
 nav:
-    - Notes: 'index.md'
-    - Progress: 'kanban.md'
+  - Home: 'index.md'
+  - Engage 4 Me: 'e4me.md'
+  - PAP: 'pap.md'
+  - Glossary: 'glossary.md'
 
 
 
@@ -13,16 +15,16 @@ site_description: kubernetes (aka k8s) tips, training, guides.
 repo_name: Devops Progress
 repo_url: https://github-hcs.dxc.com/jcano20/devops-progress.git
 
-edit_uri: ""
+edit_uri: "/"
 
 theme:
   name: material
   palette:
-    primary: "light blue"
-    accent: 'lime'
+    primary: "blue grey"
+    accent: 'pink'
   logo: 'assets/images/report.png'
   font:
-    text: 'ubuntu'
+    text: 'Fira Code'
     code: 'Inconsolata'
   language: 'en'
   include_sidebar: True
