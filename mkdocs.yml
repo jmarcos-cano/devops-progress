@@ -86,4 +86,4 @@ extra_javascript:
   - https://unpkg.com/mermaid@8.13.3/dist/mermaid.min.js
 
 
-use_directory_urls: true
+use_directory_urls: false
