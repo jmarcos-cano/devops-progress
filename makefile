@@ -1,5 +1,5 @@
 deploy: git
-	@python3 -m mkdocs gh-deploy
+	@python3 -m mkdocs gh-deploy --ignore-version
 
 git:
 	@git add . || true
