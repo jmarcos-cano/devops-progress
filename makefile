@@ -1,4 +1,4 @@
-deploy: git github 
+deploy: git github
 	@python3 -m mkdocs gh-deploy --ignore-version
 	$(MAKE) deploygithub
 

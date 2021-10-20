@@ -6,6 +6,7 @@ Here you can find **"Devops Transformation Plan"** progress for E4M exclusively.
 !!! info
     - There are still some gaps that I need to answer before giving an actual and complete plan; however I can assure the following areas are the ones we care.
     - We will need to work through iterations and discuss the plan with the team; this is the first step to get the plan in place.
+    - Ill try my best to keep it up to date.
 
 
 The plan will circle around specific areas:
